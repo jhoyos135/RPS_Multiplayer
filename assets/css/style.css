@@ -1,0 +1,80 @@
+body {
+
+    background: #333;
+    color: white;
+}
+
+.hero {
+    position: absolute;
+    top: 0;
+    height: 45%;
+    width: 100%;
+    background-image: url('../pexels-photo-1249214.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center center;
+    box-shadow: 1px 2px 8px rgba(255,255,255,0.2);
+}
+.overlay {
+    background-color: rgba(0,0,0,0.8) !important;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    height: 45%;
+}
+
+.yourTurn{
+    margin-bottom: 15px;
+    color: white;
+    font-size: 1.3em;
+}
+
+#p1name, #p2name{
+    font-weight:bold;
+}
+
+icon, button {
+    width:100%;
+}
+
+.btn-primary{
+    height:60px;
+    margin: 5px 0;
+}
+
+p {
+    font-size:1.5em;
+    margin-bottom:0px;
+}
+
+.pcolor {
+	color: white;
+}
+
+#chatdisplay {
+    height: 180px;
+    overflow: auto;
+    border: 1px solid white;
+    padding: 15px;
+    box-sizing: border-box;
+}
+#p1display,
+#p2display {
+    align-content: center;
+    margin-bottom: 15px;
+}
+
+.btn {
+    color: white !important;
+}
+
+.btn span {
+    vertical-align: middle !important;
+}
+
+.btn-primary {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
